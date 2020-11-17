@@ -26,10 +26,13 @@ import static java.util.Objects.nonNull;
 public class CarsApplication implements CommandLineRunner {
 
     String raceInput = "";
-    @Autowired
-    private ApplicationContext appContext;
-    @Autowired
-    private RaceService raceService;
+    private final ApplicationContext appContext;
+    private final RaceService raceService;
+
+    public CarsApplication(ApplicationContext appContext, RaceService raceService) {
+        this.appContext = appContext;
+        this.raceService = raceService;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(CarsApplication.class, args);
