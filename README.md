@@ -18,7 +18,7 @@ The project uses [Maven](https://maven.apache.org/) as a build tool. It already 
 
 ### Running Spring Boot application
 
-To run this application please use the command below. 
+To run this application please use the command below on the terminal. 
 
 ```
 ./mvnw spring-boot:run
@@ -32,7 +32,7 @@ invoke the java.io.Console which is needed by the user to interact with the appl
 To build the final jar and optimize the Cars application, run:
 
 ```
-./mvnw clean verify
+./mvnw clean install
 ```
 
 To run the application using the generated jar file, run:
