@@ -59,6 +59,8 @@ To add more race tracks please see `resources/db/migration/V20201111230324__Race
 
 To add more racing cars please see `resources/db/migration/V20201110230324__CarsEntities.sql`
 
+Make you you create you own scripts with different versions or names for adding more cars or race tracks, otherwise flyway will complain
+
 ## Using Docker to simplify development (optional)
 
 ### Database (Optional)
