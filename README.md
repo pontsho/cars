@@ -9,9 +9,10 @@ The project uses [Maven](https://maven.apache.org/) as a build tool. It already 
     │   ├── main
     │   │   ├── docker              # docker-compose configuration files
     │   │   ├── java                # java classes in different packages
-    │   │   ├── resources           # Resources spring application file and DB migration scripts for flyway
+    │   │   └── resources           # Resources spring application file and DB migration scripts for flyway
     │   └── test                    # Unit tests 
-    │       └── java                # java classes with tests in different packages
+    │       ├── java                # java classes with tests in different packages
+    │       └── resources           # Resources spring application file and DB migration scripts for flyway
     ├── target                      # Compiled files i.e cars.jar file
     └── README.md
 
@@ -31,7 +32,7 @@ invoke the java.io.Console which is needed by the user to interact with the appl
 To build the final jar and optimize the Cars application, run:
 
 ```
-./mvnw clean verify -DskipTests
+./mvnw clean verify
 ```
 
 To run the application using the generated jar file, run:
@@ -50,8 +51,13 @@ We have two sql scripts for creating and inserting data into the Database
 The application has two tables: `car` and `race_track`
 
 The datasource is configured in `application.yml` file under resources folder.
-DB username must be `root` and password is not set
-if you current DB has password and different username please update the datasource in the `application.yml` file
+DB username must be `root` and password is not set. 
+If you current DB has password and different username please update the datasource in the `application.yml` file
+
+
+To add more race tracks please see `resources/db/migration/V20201111230324__RaceTrackEntities.sql`
+
+To add more racing cars please see `resources/db/migration/V20201110230324__CarsEntities.sql`
 
 ## Using Docker to simplify development (optional)
 

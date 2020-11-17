@@ -1,0 +1,19 @@
+
+L
+java:S1602",Remove useless curly braces around statement(óóª¶þÿÿÿÿ8±Åß±Û.
+c
+java:S1192"HDefine a constant instead of duplicating this literal "Braking" 3 times.(žõ‹É8±Åß±Û.
+G
+java:S1602",Remove useless curly braces around statement(Æ›žá8±Åß±Û.
+G
+java:S1602",Remove useless curly braces around statement(ìÍÎ¡8±Åß±Û.
+x	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ8±Åß±Û.
+e
+java:S1192"JDefine a constant instead of duplicating this literal "Cornering" 3 times.(žõ‹É8±Åß±Û.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(˜¿Æ¥ýÿÿÿÿ8²á´°Û.
+G
+java:S1602",Remove useless curly braces around statement(úþàè8±Åß±Û.
+h
+java:S1192"MDefine a constant instead of duplicating this literal "Acceleration" 3 times.(žõ‹É8±Åß±Û.
+e
+java:S1192"JDefine a constant instead of duplicating this literal "Top speed" 3 times.(žõ‹É8±Åß±Û.

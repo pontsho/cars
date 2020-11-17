@@ -29,6 +29,7 @@ public class RaceService {
                 .collect(Collectors.toList());
         Race race = new Race(track, contestants);
         race.start();
+        //In case we want to store race result: will implement phase 2 :)
         return raceRepository.add(race);
     }
 
